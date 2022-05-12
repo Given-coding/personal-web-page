@@ -1,36 +1,67 @@
 body{
+    background-color: silver;
+}
+.hero-image {
+    background-image: url("images/download\ \(8\).jpg");
+    background-size: cover;
+    background-position: cover;
+    height: 400px; 
+    width: 100%;
+    margin-top: 1em;
+  }
+h1{
+    color: black;
     background-color: whitesmoke;
-}
-.name{
-    display: flex;
+    font-style: unset;
     border-radius: 1em;
-    font-weight: 500em;
-    margin-top: 2em;
-    margin-right: 10em;
-    padding-left: 5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
 }
-img{
+h2{
+    color: white;
+    background-color: darkslategray;
+    font-style: unset;
+    border-radius: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+h3{
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    text-align: initial;
+}
+h4{
+    font-style: normal;
+    font-weight: 600;
+    color: red;
+    text-align: initial;
+}
+.you{
     display: flex;
     width: 10em;
     margin-left: 1em;
     margin-bottom: 60em;
-    border-radius: 50%;
-}
-@media (min-width: 980px){
-    .personal-web{
-        display: flex;
-    }
+    border-radius: 50%;   
 }
 .body-side{
-    display: flex;
     width: 20em;
 }
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
-  h2{
+}
+h2{
     font-style: initial;
     font-weight: 600;
     color: black;
+}
+@media (min-width: 980px){
+    .pizzas{
+        display: flex;
+    }
+}
+img{
+    border-radius: 50%;
 }
