@@ -50,6 +50,7 @@ h4 {
 
 h5 {
   font-size: 1rem;
+  color: red;
 }
 
 h6 {
@@ -60,8 +61,15 @@ p {
   font-size: 1.125rem;
   font-weight: 200;
   line-height: 1.8;
+  color: white;
 }
-
+.p1{
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+  color: white;
+  text-align: center;
+}
 .font-light {
   font-weight: 300;
 }
@@ -268,4 +276,12 @@ body{
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+.footer{
+  color: white;
+  font-weight: 100;
+  background-color: black;
+  border: solid grey 1em;
+  padding: 1em;
+  margin: 3em;
 }
