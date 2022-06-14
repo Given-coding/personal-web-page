@@ -1,13 +1,14 @@
 body{
     background-color: silver;
 }
-.hero-image {
+.personal-web {
     background-image: url("images/108ba498-ec52-451c-9b57-03a42f908e97.jpg");
     background-size: cover;
     background-position: cover;
     height: 400px; 
     width: 100%;
     margin-top: 1em;
+    justify-content: center;
   }
 h1{
     color: black;
@@ -61,11 +62,10 @@ a{
     text-align: center;
 }
 .you{
-    display: flex;
+    border-radius: 50%; 
     width: 10em;
-    margin-left: 9em;
-    margin-bottom: 60em;
-    border-radius: 50%;   
+    display: flex;
+    margin-top: 1em;
 }
 .me{
     display: flex;
@@ -75,8 +75,9 @@ a{
     width: 20em;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
+    width: 20em;
 }
 .first-subject{
     border: solid grey 1em;
@@ -94,6 +95,16 @@ table, th, td {
 }
 @media (min-width: 980px){
     .favourite{
+        display: flex;
+    }
+}
+@media (min-width: 980px){
+    .personal-web{
+        display: flex;
+    }
+}
+@media (min-width: 980px){
+    .side-bar{
         display: flex;
     }
 }
